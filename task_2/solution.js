@@ -30,7 +30,7 @@ function calcDiscount(sum, min, discount) {
 
     if (productsSum >= discountMinSum) {
      discountSum = discountPart / 100 * productsSum;
-    } else {discountSum = 0
+    } else {discountSum = 0;
     }
 
     // Конец решения задания №2.2.
