@@ -26,7 +26,7 @@ function calcDiscount(sum, min, discount) {
 
     // Задание №2.2. Рассчитать скидку
 
-    let discountPrice;
+    let discountSum;
 
     if (productsSum >= discountMinSum) {
      discountSum = discountPart / 100 * productsSum;
@@ -35,7 +35,7 @@ function calcDiscount(sum, min, discount) {
 
     // Конец решения задания №2.2.
 
-    return discountPrice;
+    return discountSum;
 }
 
 function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shippingPrice}) {
